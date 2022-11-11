@@ -1,0 +1,10 @@
+[Unit]
+Description=Run NAS backups daily.
+
+[Timer]
+OnBootSec=10s
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target

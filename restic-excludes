@@ -1,0 +1,19 @@
+# Excluded from restic backups.
+
+# Cloud storage:
+$HOME/Filen/**
+$HOME/Insync/**
+$HOME/pCloudDrive/**
+$HOME/.pcloud/**
+
+# Network stuff
+$HOME/.config
+$HOME/.joplin
+$HOME/.local
+$HOME/.npm
+$HOME/.rustup
+$HOME/.local/share/Steam
+$HOME/snap
+
+# The critically-acclaimed MMORPG Final Fantasy XIV
+$HOME/.xlcore/**
